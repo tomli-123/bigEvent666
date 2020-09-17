@@ -1,0 +1,35 @@
+.login-box {
+  width: 400px;
+  height: 301px;
+  background-color: aliceblue;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 26px;
+}
+.form-title {
+  height: 60px;
+  background: url("../images/login_title.png") no-repeat center;
+}
+.w {
+  width: 100%;
+}
+.reg {
+  position: absolute;
+  right: 26px;
+}
+.reg-box {
+  width: 400px;
+  height: 301px;
+  background-color: aliceblue;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 26px;
+}
+.login {
+  position: absolute;
+  right: 26px;
+}

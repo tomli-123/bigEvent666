@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style></style>
+  </head>
+  <body>
+    <script>
+      function fn1() {
+        console.log(this.a);
+      }
+      var obj = {
+        a: 1,
+        fn1: fn1,
+      };
+      var a = 2;
+      function fn2(fn) {
+        fn();
+      }
+
+      fn2(obj.fn1); // this->window
+    </script>
+  </body>
+</html>
